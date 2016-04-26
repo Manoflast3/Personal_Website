@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
@@ -20,7 +22,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
     hot: true
   },
   plugins: [
