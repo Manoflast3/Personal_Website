@@ -9,6 +9,9 @@ body {
   text-align: center;
   background: none; }
 
+.fa-4x {
+  color: #000000; }
+
 .container-main {
   position: absolute;
   top: 20%; }
