@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+body {
+  font-family: "Oxygen", sans-serif;
+  text-align: center; }
+
+.main {
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  top: 21%; }
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: url("../imgs/headshot.jpg");
+  background-size: cover;
+  display: block;
+  border-radius: 50%; }
+
+.name h1 {
+  margin-bottom: 0em; }
+
+.navbar-main {
+  max-width: 35em;
+  height: 5em;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.vital-stats {
+  max-width: 30em;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.lead {
+  text-align: left;
+  max-width: 36em;
+  padding-left: 2em;
+  padding-right: 1em; }
+
+.container-main .lead {
+  text-align: center;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-bottom: 1em; }
+
+.container-about, .container-contact, .container-projects {
+  padding-top: 12em;
+  display: none; }
+
+.container-about {
+  padding-left: 3em; }
+
+.container-projects {
+  max-width: 36em;
+  margin: auto;
+  text-align: left; }
+
+.container-projects img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto; }
+
+.prj-text {
+  font-size: 1.25em; }
+
+.container-icon {
+  padding-top: 2em;
+  max-width: 50em; }
+
+a:hover, a:visited, a:active, a:link {
+  text-decoration: none;
+  border-bottom: none; }
+
+a {
+  opacity: 1;
+  transition: opacity .15s ease-in-out;
+  -moz-transition: opacity .15s ease-in-out;
+  -webkit-transition: opacity .15s ease-in-out; }
+
+a:hover {
+  opacity: 0.5;
+  cursor: pointer; }
+
+#home:hover {
+  cursor: pointer; }
+
+@media (max-width: 768px) {
+  .lead {
+    padding-left: 1.25em; }
+
+  .container-about {
+    padding-left: 1.5em; }
+
+  .container-projects {
+    padding-top: 10em;
+    padding-left: 0.5em;
+    padding-right: 0.5em; }
+
+  .prj-text {
+    font-size: 1em; } }
+
+/*# sourceMappingURL=index.css.map */
