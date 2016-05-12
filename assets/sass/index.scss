@@ -7,30 +7,28 @@ body {
   text-align: center;
 }
 
-.main {
-  margin: auto;
-  width: 100%;
-  position: absolute;
-  top: 21%;
+.container-main, .navbar-main, .container-main .jumbotron, .jumbotron, .lead, .container-about, .container-contact, .container-icon, .vital-stats {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	background: none;
+}
+
+.container-main {
+	position: absolute;
+	top: 20%;
 }
 
 .headshot {
-  width: 150px;
-  height: 150px;
-  margin: auto;
-  background: url("../imgs/headshot.jpg");
-  background-size: cover;
-  display: block;
-  border-radius: 50%;
-}
-.name {
-  h1 {
-    margin-bottom: 0em;
-  }
-}
-.title {
-  h2 {
-  }
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	background: url("../imgs/headshot.jpg");
+	background-size: cover;
+	display: block;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
 }
 
 .navbar-main {
