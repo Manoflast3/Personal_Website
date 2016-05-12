@@ -3,14 +3,11 @@ body {
   font-family: "Oxygen", sans-serif;
   text-align: center; }
 
-.container-main, .navbar-main, .container-main .jumbotron, .jumbotron, .lead, .container-about, .container-contact, .container-icon, .vital-stats {
+.container-main, .navbar-main, .container-main, .jumbotron, .lead, .container-about, .container-contact, .container-icon, .vital-stats {
   margin: auto;
   width: 100%;
   text-align: center;
-  background: none; }
-
-.fa-4x {
-  color: #000000; }
+  background: none !important; }
 
 .container-main {
   position: absolute;
@@ -44,6 +41,9 @@ body {
   padding-left: 2em;
   padding-right: 1em; }
 
+.subtitle {
+  color: #969696; }
+
 .container-main .lead {
   text-align: center;
   padding-left: 0em;
@@ -66,6 +66,18 @@ body {
   max-height: 100%;
   max-width: 100%;
   margin: auto; }
+
+.card {
+  width: 30em;
+  height: 30em; }
+  .card .card-img-top {
+    width: 30em;
+    height: 25em; }
+  .card .lead {
+    text-align: center; }
+
+.col-lg-12 .card {
+  margin: 0 auto; }
 
 .prj-text {
   font-size: 1.25em; }
