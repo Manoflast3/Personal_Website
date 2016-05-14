@@ -3,10 +3,14 @@ body {
   font-family: "Oxygen", sans-serif;
   text-align: center; }
 
-.container-main, .navbar-main, .container-main, .jumbotron, .lead, .container-about, .container-contact, .container-icon, .vital-stats {
+.container-main, .navbar-main, .container-main, .lead, .container-about, .container-contact, .container-icon, .vital-stats {
   margin: auto;
   width: 100%;
   text-align: center;
+  background: none !important; }
+
+.jumbotron {
+  padding: 0.5em 0.6em;
   background: none !important; }
 
 .container-main {
@@ -41,8 +45,12 @@ body {
   padding-left: 2em;
   padding-right: 1em; }
 
+#talk {
+  text-align: center; }
+
 .subtitle {
-  color: #969696; }
+  color: #969696;
+  font-size: 2.2em; }
 
 .container-main .lead {
   text-align: center;
